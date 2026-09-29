@@ -1,0 +1,15 @@
+{
+  "name": "silicide-void-spark",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Силицид — первая глава браузерной стратегии на процедурном Three.js/WebGL",
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "test": "node tests.js && node tests/full-chapter.js && node tests/browser.js",
+    "test:unit": "node tests.js",
+    "test:browser": "node tests/browser.js"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
